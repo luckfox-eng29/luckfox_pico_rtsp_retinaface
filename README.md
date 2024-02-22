@@ -6,6 +6,7 @@
 
 # 编译
 ```
+export LUCKFOX_SDK_PATH=<Your Luckfox-pico Sdk Path>
 mkdir build
 cd build
 cmake ..

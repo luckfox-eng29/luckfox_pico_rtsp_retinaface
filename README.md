@@ -1,5 +1,5 @@
 # luck_pico_rtsp_retinaface
-    测试 luckfox-pico plus 使用 rknn 推理 retinaface 并进行 rtsp 推流的例程。
+    测试 luckfox-pico plus 使用 rknn 推理 retinaface 并进行 rtsp 推流。
 
 # 开发环境
 + luckfox-pico sdk

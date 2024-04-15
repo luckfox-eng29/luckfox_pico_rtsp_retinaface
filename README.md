@@ -1,23 +1,24 @@
+**Read this in other languages: [English](README.md), [中文](README_CN.md).**
 # luck_pico_rtsp_retinaface
-    测试 luckfox-pico plus 使用 rknn 推理 retinaface 并进行 rtsp 推流。
+    Test the usage of luckfox-pico plus for running RKNN inference with retinaface and streaming via RTSP.
 
-# 开发环境
-+ luckfox-pico sdk
+# Development Environment
++ luckfox-pico SDK
 
-# 编译
+# Compilation
 ```
-export LUCKFOX_SDK_PATH=<Your Luckfox-pico Sdk Path>
+export LUCKFOX_SDK_PATH=<Your Luckfox-pico SDK Path>
 mkdir build
 cd build
 cmake ..
 make && make install
 ```
 
-# 运行
-将编译生成的`luckfox_rtsp_retinaface_demo`上传到 luckfox-pico 上，进入文件夹运行
+# Execution
+Upload the compiled `luckfox_rtsp_retinaface_demo` to luckfox-pico, navigate to the folder, and run:
 ```
 ./luckfox_rtsp_retinaface
 ```
-使用 vlc 打开网络串流 rtsp://172.32.0.93/live/0（按实际情况修改IP地址拉取图像）
+Open the RTSP stream using VLC via rtsp://172.32.0.93/live/0 (modify the IP address according to your actual situation).
 
-**注意**：运行前请关闭系统默认 rkipc 程序，执行 `RkLunch-stop.sh` 关闭
+**Note**: Before running, please close the default system rkipc program by executing `RkLunch-stop.sh`.
